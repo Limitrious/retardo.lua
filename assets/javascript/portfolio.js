@@ -127,8 +127,7 @@ $.getJSON(ipgeolocation, (data) => {
 
     writeLine([
       `Hello faggot, hehe nice ip <i style='color: #0f0'>${ip}</i>, dont think i dont know your location, you're from ${country}.`,
-      `But chill, i will not dox you or ddos you, this is a static website, its mean the website cannot send me your ip.`,
-      `You gonna regret this lol.`], 30, 900, () => {
+      `Hehehe.`], 30, 900, () => {
       if (app.skippedIntro) return;
 
       clearCursor();
