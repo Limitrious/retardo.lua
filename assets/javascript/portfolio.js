@@ -9,9 +9,15 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: 'Limitrious - owner/coder',
+      name: 'Limitrious',
       link: 'Limitrious',
     },
+
+    {
+      name: 'Sefek',
+      link: 'SefeKHVH',
+    },
+
   ];
 
   for (let i in links) {
@@ -21,7 +27,7 @@ $(document).ready(() => {
 
     link = $('#marquee').children('a').last();
 
-    if (i != links.length - 1) $('#marquee').append('  ');
+    if (i != links.length - 1) $('#marquee').append(' — ');
   }
 
   if (mobileAndTabletCheck()) {
