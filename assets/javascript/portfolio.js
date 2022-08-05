@@ -27,7 +27,7 @@ $(document).ready(() => {
 
     link = $('#marquee').children('a').last();
 
-    if (i != links.length - 1) $('#marquee').append(' —•— ');
+    if (i != links.length - 1) $('#marquee').append(' | ');
   }
 
   if (mobileAndTabletCheck()) {
