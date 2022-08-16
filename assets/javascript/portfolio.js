@@ -132,8 +132,8 @@ $.getJSON(ipgeolocation, (data) => {
     const country = data.country_name ? data.country_name : 'your country';
 
     writeLine([
-      `hehe nice ip <i style='color: #0f0'>${ip}</i>, sending 154 sex hunter to ${country}, prepare ur ass :yum:.`,
-      `abinindahilsfakindud btw if u is a girl pls dm me on discord Limitrious#0764.`], 30, 900, () => {
+      `hehe nice ip <i style='color: #0f0'>${ip}</i>, sending 154 sex hunters to ${country}, prepare ur ass :yum:.`,
+      `btw if u is a girl pls dm me on discord Limitrious#0764.`,`i'm lonely and horny most of the time :flushed:`, `abinindahilsfakindud`], 30, 900, () => {
       if (app.skippedIntro) return;
 
       clearCursor();
