@@ -121,7 +121,7 @@ const writeLine = (text, speed, timeout, callback) => {
 };
 
 $.getJSON(ipgeolocation, (data) => {
-  writeLine(['Authenticating...', 'Enter your password: ', 'Enter your password: ********', "Granting access to <span style='font-size: 14px; color: #06d;'>[random idiot]</span>...", "Booting...", `Boot successfully! <span style='font-size: 14px; color: #0f0;'>[success]</span>`,], 30, () => {
+  writeLine(['Authenticating...', 'Enter your password: ', 'Enter your password: ********', "Granting access to <span style='font-size: 14px; color: #06d;'>[random nigger]</span>...", "Connecting to Israel...", `Connected! <span style='font-size: 14px; color: #0f0;'>[success]</span>`,], 30, () => {
     if (app.skippedIntro) return;
 
     clearCursor();
